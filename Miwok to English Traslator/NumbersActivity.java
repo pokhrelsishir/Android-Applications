@@ -13,6 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+// Author: Sishir Pokhrel
 package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
@@ -36,7 +38,6 @@ public class NumbersActivity extends AppCompatActivity {
         words[7] = "Eight";
         words[8] = "Nine";
         words[9] = "Ten";
-
 
     }
 }

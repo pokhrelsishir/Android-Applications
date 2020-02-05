@@ -1,10 +1,14 @@
+// Author: Sishir Pokhrel
+
 package com.example.android.miwok;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -16,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         TextView numbers = (TextView) findViewById(R.id.numbers);
         // Set a click listener on that View
         numbers.setOnClickListener(new OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
+            // The code in this method will be executed when the numbers category is clicked
+            // on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link NumbersActivity}
@@ -31,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Set a click listener on that View
         family.setOnClickListener(new OnClickListener() {
-            // The code in this method will be executed when the family category is clicked on.
+            // The code in this method will be executed when the family category is clicked
+            // on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link FamilyActivity}
@@ -48,7 +54,8 @@ public class MainActivity extends AppCompatActivity {
         // Set a click listener on that View
         colors.setOnClickListener(new OnClickListener() {
 
-            // The code in this method will be executed when the colors category is clicked on.
+            // The code in this method will be executed when the colors category is clicked
+            // on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link ColorsActivity}
@@ -64,7 +71,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Set a click listener on that View
         phrases.setOnClickListener(new OnClickListener() {
-            // The code in this method will be executed when the phrases category is clicked on.
+            // The code in this method will be executed when the phrases category is clicked
+            // on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link PhrasesActivity}

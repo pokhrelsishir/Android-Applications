@@ -13,6 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+// Author: Sishir Pokhrel
+
 package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
